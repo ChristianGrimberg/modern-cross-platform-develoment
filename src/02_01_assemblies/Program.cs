@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 using System.Reflection;
-namespace _02_01_basics;
+namespace _02_01_assemblies;
 class Program
 {
     static void Main(string[] args)
