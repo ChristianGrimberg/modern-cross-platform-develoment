@@ -6,11 +6,15 @@ class Program
     static void Main(string[] args)
     {
         // Declare some unused variables using types an additional assemblies
+#pragma warning disable CS0168 // Variables declared but never used
         System.Data.DataSet ds;
         System.Net.Http.HttpClient client;
+#pragma warning restore CS0168
 
+#pragma warning disable CS8602 // Dereference of a possibly null reference
         // Loop through the assemblies that this app reference
         foreach (var r in Assembly.GetEntryAssembly().GetReferencedAssemblies())
+#pragma warning restore CS8602
         {
             // Load the assembly so we can read its details
             var a = Assembly.Load(new AssemblyName(r.FullName));
