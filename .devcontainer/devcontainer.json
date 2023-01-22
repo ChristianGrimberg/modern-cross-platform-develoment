@@ -15,7 +15,8 @@
 			"extensions": [
 				"kreativ-software.csharpextensions",
 				"eamodio.gitlens",
-				"ms-dotnettools.csharp"
+				"ms-dotnettools.csharp",
+				"tintoy.msbuild-project-tools"
 			]
 		}
 	}
