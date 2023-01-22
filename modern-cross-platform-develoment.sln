@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{15EBB7CE-BC8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_01_assemblies", "src\02_01_assemblies\02_01_assemblies.csproj", "{994ABFAA-97B7-4529-B66A-EA7FA076B504}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_02_variables", "src\02_02_variables\02_02_variables.csproj", "{03C680BE-0680-4865-9A7E-C23F2E79A523}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{994ABFAA-97B7-4529-B66A-EA7FA076B504}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{994ABFAA-97B7-4529-B66A-EA7FA076B504}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{994ABFAA-97B7-4529-B66A-EA7FA076B504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C680BE-0680-4865-9A7E-C23F2E79A523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C680BE-0680-4865-9A7E-C23F2E79A523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C680BE-0680-4865-9A7E-C23F2E79A523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C680BE-0680-4865-9A7E-C23F2E79A523}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{994ABFAA-97B7-4529-B66A-EA7FA076B504} = {15EBB7CE-BC89-41EF-AB76-A0D6D21C3898}
+		{03C680BE-0680-4865-9A7E-C23F2E79A523} = {15EBB7CE-BC89-41EF-AB76-A0D6D21C3898}
 	EndGlobalSection
 EndGlobal
